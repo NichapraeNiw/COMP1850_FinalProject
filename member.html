@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        Author: Nattanicha Nilsriphaiwan
+        notes:	Final project
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/forms.js" defer></script>
+    <title>Member</title>
+</head>
+<body>
+    <header>
+        <h1 class ="logo">ABC</h1>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">Member</a></li>
+                <li><a href="Lorem.html">Lorem</a></li>
+            </ul>
+        </nav>
+
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+
+    <section>
+        <div class="container container--narrow">
+            <h1>Become a Member With Us</h1>
+            <p>fill the below for and hit submit</p>
+        </div>
+    </section>
+
+    <section class="bg-green">
+        <div class="container">
+            <p>Enter names in the fields, then click "Submit" to submit the form:</p>
+
+            <form class="form" action="/action_page.php">
+                <label for="first-name">
+                    First name
+                </label>
+                <input type="text" id="first-name">
+
+                <label for="last-name">
+                    Last name
+                </label>
+                <input type="text" id="last-name">
+
+                <label for="email">
+                    Email
+                </label>
+                <input type="text" id="email">
+            
+            <button onclick="myFunction()">Submit</button>
+
+            <p id="submit"></p>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="bg-beige">
+        <div class="container footer-text">
+            <div class="split">
+                <div>
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="#" class="fa fa-facebook"></a><a href="#">ABC Facebook Page</a></li>
+                        <li><a href="#" class="fa fa-twitter"></a><a href="#">ABC Twitter Profile</a></li>
+                        <li><a href="#" class="fa fa-instagram"></a><a href="#">ABC Instagram Profile</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Location</h3>
+                    <p>BCIT Downtown Campus</p>
+                    <p>555 Seymour St,</p>
+                    <p> Vancouver, BC</p>
+                    <p> V6B 3H6</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
